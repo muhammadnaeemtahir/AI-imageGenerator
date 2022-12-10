@@ -1,13 +1,8 @@
-/* input::placeholder {
+input::placeholder {
     font-size: 30px;
 }
 
 input[type="text"] {
     font-size: 30px;
     font-weight: bold;
-} */
-
-body {
-    background: linear-gradient(to right, rgba(56, 69, 36, 0.746), rgba(177, 177, 100, 0.4)), url('../assets/backgrounds/bg-main.jpg');
-    background-size: cover;
 }
