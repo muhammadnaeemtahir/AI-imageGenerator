@@ -1,0 +1,8 @@
+input::placeholder {
+    font-size: 30px;
+}
+
+input[type="text"] {
+    font-size: 30px;
+    font-weight: bold;
+}
