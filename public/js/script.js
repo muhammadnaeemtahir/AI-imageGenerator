@@ -50,13 +50,13 @@ async function generateImageRequest(prompt, size) {
 }
 
 function showSpinner() {
-  document.querySelector(".spinner-border").classList.remove("d-none");
-  document.querySelector(".spinner-border").classList.add("d-block");
+  document.querySelector(".spinner-grow").classList.remove("d-none");
+  document.querySelector(".spinner-grow").classList.add("d-block");
 }
 
 function removeSpinner() {
-  document.querySelector(".spinner-border").classList.remove("d-block");
-  document.querySelector(".spinner-border").classList.add("d-none");
+  document.querySelector(".spinner-grow").classList.remove("d-block");
+  document.querySelector(".spinner-grow").classList.add("d-none");
 }
 
 document.querySelector("#image-form").addEventListener("submit", onSubmit);
